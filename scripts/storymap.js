@@ -413,8 +413,8 @@ $(window).on('load', function() {
     endPixels = parseInt(getSetting('_pixelsAfterFinalChapter'));
     if (endPixels > 100) {
       $('#space-at-the-bottom').css({
-        'height': (endPixels / 2) + 'px',
-        'padding-top': (endPixels / 2) + 'px',
+        'height': (endPixels / 8) + 'px',
+        'padding-top': (endPixels / 8) + 'px',
       });
     }
 
