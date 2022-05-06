@@ -485,9 +485,7 @@ $(window).on('load', function() {
       credit += ' | ';
     }
 
-    credit += 'Map <a href="' + getSetting('_githubRepo') + '">made</a>';
-    if (getSetting('_codeCredit')) credit += ' by ' + getSetting('_codeCredit');
-    credit += ' with ';
+    credit += 'Map made ' + 'with ';
     $('.leaflet-control-attribution')[0].innerHTML = credit + attributionHTML;
   }
 
