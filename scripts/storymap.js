@@ -478,7 +478,7 @@ $(window).on('load', function() {
 
     if (name && url) {
       if (url.indexOf('@') > 0) { url = 'mailto:' + url; }
-      credit += ' by <a href="' + url + '">' + name + '</a> | ';
+      credit += '  <a href="' + url + '">' + name + '</a> | ';
     } else if (name) {
       credit += ' by ' + name + ' | ';
     } else {
