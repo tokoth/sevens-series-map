@@ -469,7 +469,7 @@ $(window).on('load', function() {
    */
   function changeAttribution() {
     var attributionHTML = $('.leaflet-control-attribution')[0].innerHTML;
-    var credit = 'Map by <a href="'
+    var credit = 'Map developed by <a href="'
       // Show Google Sheet URL if the variable exists and is not empty, otherwise link to Chapters.csv
       + '" target="_blank"></a>';
 
